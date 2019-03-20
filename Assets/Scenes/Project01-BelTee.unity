@@ -17,7 +17,7 @@ RenderSettings:
   m_Fog: 1
   m_FogColor: {r: 0, g: 0, b: 0, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.06
+  m_FogDensity: 0.5
   m_LinearFogStart: 0
   m_LinearFogEnd: 20
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -3517,10 +3517,10 @@ Light:
   m_GameObject: {fileID: 788771357}
   m_Enabled: 1
   serializedVersion: 8
-  m_Type: 0
+  m_Type: 2
   m_Color: {r: 0.8627451, g: 0.14494121, b: 0.5636599, a: 1}
-  m_Intensity: 20
-  m_Range: 4.9225793
+  m_Intensity: 7
+  m_Range: 5
   m_SpotAngle: 54
   m_CookieSize: 10
   m_Shadows:
@@ -5868,11 +5868,11 @@ MonoBehaviour:
     maxAllowedPerFrameDistanceDifference: 0.003
     smoothsRotation: 0
     maxAllowedPerFrameAngleDifference: 1.5
-  validCollisionColor: {r: 0.5411765, g: 0.9019608, b: 1, a: 1}
-  invalidCollisionColor: {r: 0.54509807, g: 0.14901961, b: 0.20784314, a: 1}
+  validCollisionColor: {r: 0, g: 0.8166666, b: 1, a: 1}
+  invalidCollisionColor: {r: 1, g: 0, b: 0.14851475, a: 1}
   tracerVisibility: 0
   cursorVisibility: 0
-  maximumLength: {x: 10, y: Infinity}
+  maximumLength: {x: 3, y: Infinity}
   tracerDensity: 25
   cursorRadius: 0.5
   heightLimitAngle: 25
@@ -6727,11 +6727,11 @@ MonoBehaviour:
     maxAllowedPerFrameDistanceDifference: 0.003
     smoothsRotation: 0
     maxAllowedPerFrameAngleDifference: 1.5
-  validCollisionColor: {r: 0.5411765, g: 0.9019608, b: 1, a: 1}
-  invalidCollisionColor: {r: 0.54509807, g: 0.14901961, b: 0.20784314, a: 1}
+  validCollisionColor: {r: 1, g: 0, b: 0.45773697, a: 1}
+  invalidCollisionColor: {r: 1, g: 0, b: 0.14851475, a: 1}
   tracerVisibility: 0
   cursorVisibility: 0
-  maximumLength: {x: 10, y: Infinity}
+  maximumLength: {x: 2, y: Infinity}
   tracerDensity: 10
   cursorRadius: 0.5
   heightLimitAngle: 100
@@ -7385,7 +7385,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abc4b5dd2be1cea4aaea2850b910d3f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nearTouchHighlight: {r: 0.77599996, g: 0.228144, b: 0.228144, a: 0}
+  nearTouchHighlight: {r: 0, g: 0, b: 0, a: 1}
   touchHighlight: {r: 0.65, g: 0, b: 0.65, a: 0}
   grabHighlight: {r: 0, g: 0, b: 0, a: 0}
   useHighlight: {r: 0, g: 0, b: 0, a: 0}
@@ -8713,7 +8713,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: e4fb91d837e5049d3aa20d4787c56ddb, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d9b0ca914003c43e69f35a1b06a43645, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.1
   m_Pitch: 1
@@ -9097,7 +9097,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: e4fb91d837e5049d3aa20d4787c56ddb, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d9b0ca914003c43e69f35a1b06a43645, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.1
   m_Pitch: 1
@@ -9426,7 +9426,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d06feecd74a624232afefb0c8209037f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: e4fb91d837e5049d3aa20d4787c56ddb, type: 3}
+  clip: {fileID: 8300000, guid: d9b0ca914003c43e69f35a1b06a43645, type: 3}
 --- !u!114 &5381991597361619394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9465,7 +9465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d06feecd74a624232afefb0c8209037f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: e4fb91d837e5049d3aa20d4787c56ddb, type: 3}
+  clip: {fileID: 8300000, guid: d9b0ca914003c43e69f35a1b06a43645, type: 3}
 --- !u!82 &6193787554171324848
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9574,7 +9574,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abc4b5dd2be1cea4aaea2850b910d3f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nearTouchHighlight: {r: 0.77599996, g: 0.228144, b: 0.228144, a: 0}
+  nearTouchHighlight: {r: 0, g: 0, b: 0, a: 1}
   touchHighlight: {r: 0.65, g: 0, b: 0.65, a: 0}
   grabHighlight: {r: 0, g: 0, b: 0, a: 0}
   useHighlight: {r: 0, g: 0, b: 0, a: 0}
@@ -9878,7 +9878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abc4b5dd2be1cea4aaea2850b910d3f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nearTouchHighlight: {r: 0.77599996, g: 0.228144, b: 0.228144, a: 0}
+  nearTouchHighlight: {r: 0, g: 0, b: 0, a: 1}
   touchHighlight: {r: 0.65, g: 0, b: 0.65, a: 0}
   grabHighlight: {r: 0, g: 0, b: 0, a: 0}
   useHighlight: {r: 0, g: 0, b: 0, a: 0}
@@ -10130,7 +10130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abc4b5dd2be1cea4aaea2850b910d3f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nearTouchHighlight: {r: 0.77599996, g: 0.228144, b: 0.228144, a: 0}
+  nearTouchHighlight: {r: 0, g: 0, b: 0, a: 1}
   touchHighlight: {r: 0.65, g: 0, b: 0.65, a: 0}
   grabHighlight: {r: 0, g: 0, b: 0, a: 0}
   useHighlight: {r: 0, g: 0, b: 0, a: 0}
@@ -10360,7 +10360,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abc4b5dd2be1cea4aaea2850b910d3f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nearTouchHighlight: {r: 0.77599996, g: 0.228144, b: 0.228144, a: 0}
+  nearTouchHighlight: {r: 0, g: 0, b: 0, a: 1}
   touchHighlight: {r: 0.65, g: 0, b: 0.65, a: 0}
   grabHighlight: {r: 0, g: 0, b: 0, a: 0}
   useHighlight: {r: 0, g: 0, b: 0, a: 0}
@@ -10560,7 +10560,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abc4b5dd2be1cea4aaea2850b910d3f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nearTouchHighlight: {r: 0.77599996, g: 0.228144, b: 0.228144, a: 0}
+  nearTouchHighlight: {r: 0, g: 0, b: 0, a: 1}
   touchHighlight: {r: 0.65, g: 0, b: 0.65, a: 0}
   grabHighlight: {r: 0, g: 0, b: 0, a: 0}
   useHighlight: {r: 0, g: 0, b: 0, a: 0}
@@ -10742,7 +10742,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abc4b5dd2be1cea4aaea2850b910d3f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nearTouchHighlight: {r: 0.77599996, g: 0.228144, b: 0.228144, a: 0}
+  nearTouchHighlight: {r: 0, g: 0, b: 0, a: 1}
   touchHighlight: {r: 0.65, g: 0, b: 0.65, a: 0}
   grabHighlight: {r: 0, g: 0, b: 0, a: 0}
   useHighlight: {r: 0, g: 0, b: 0, a: 0}
@@ -11056,7 +11056,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abc4b5dd2be1cea4aaea2850b910d3f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nearTouchHighlight: {r: 0.77599996, g: 0.228144, b: 0.228144, a: 0}
+  nearTouchHighlight: {r: 0, g: 0, b: 0, a: 1}
   touchHighlight: {r: 0.65, g: 0, b: 0.65, a: 0}
   grabHighlight: {r: 0, g: 0, b: 0, a: 0}
   useHighlight: {r: 0, g: 0, b: 0, a: 0}
